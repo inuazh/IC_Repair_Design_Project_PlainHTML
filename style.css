@@ -12,6 +12,10 @@ body * {
     box-sizing: border-box;
 }
 
+:root{
+    --color-gold: #E3B873;
+}
+
 .list2container {
     margin-top: 150px;
     display: flex;
@@ -46,12 +50,12 @@ body * {
 }
 
 .logo {
-    color: #E3B873;
+    color: var(--color-gold);
 }
 
 .button {
     text-transform: uppercase;
-    background: #E3B873;
+    background: var(--coloe-gold);
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
     outline: 0;
@@ -164,7 +168,7 @@ body * {
     font-size: 28px;
     line-height: 53px;
     text-transform: uppercase;
-    color: #E3B873;
+    color: var(--color-gold);
 }
 
 .imagesARROW {
@@ -179,7 +183,7 @@ body * {
 
 .telNumber {
     font-size: 0.8em;
-    color: #E3B873;
+    color: var(--color-gold);
 }
 
 .subtitle {
@@ -240,7 +244,7 @@ body * {
     margin-top: 590px;
     border: none;
     height: 3px;
-    background-color: #E3B873;
+    background-color: var(--color-gold);
     width: 10vh;
 }
 
@@ -267,7 +271,7 @@ form {
 
 button[type="submit"] {
     text-transform: uppercase;
-    background-color: #E3B873;
+    background-color: var(--color-gold);
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -379,8 +383,8 @@ input[type="text"] {
 
 .priceList4 {
     margin-top: 20px;
-    background-color: #E3B873;
-    background: #E3B873;
+    background-color: var(--coloe-gold);
+    background: var(--coloe-gold);
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
     height: 54px;
     width: 228px;
@@ -473,7 +477,7 @@ input[type="text"] {
     right: 59px;
     width: 20px;
     height: 20px;
-    background-color: #E3B873;
+    background-color: var(--coloe-gold);
     color: #ffffff;
     border-radius: 50%;
     font-size: 19px;
@@ -486,7 +490,7 @@ input[type="text"] {
 
 .buttonNoItalic {
     text-transform: uppercase;
-    background: #E3B873;
+    background: var(--coloe-gold);
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
     outline: 0;
@@ -516,7 +520,7 @@ input[type="text"] {
     font-size: 18px;
     line-height: 26px;
 
-    color: #E3B873;
+    color: var(--coloe-gold);
 
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
@@ -560,7 +564,7 @@ input[type="text"] {
     line-height: 37px;
     text-transform: uppercase;
 
-    color: #E3B873;
+    color: var(--coloe-gold);
 }
 
 .pictures_column_own {
@@ -627,7 +631,7 @@ input[type="text"] {
     font-weight: 400;
     font-size: 20px;
     line-height: 38px;
-    color: #E3B873;
+    color: var(--coloe-gold);
 
 }
 
@@ -791,7 +795,7 @@ input[type="text"] {
     text-align: center;
     text-transform: uppercase;
 
-    color: #E3B873;
+    color: var(--color-gold);
     position: absolute;
 }
 
