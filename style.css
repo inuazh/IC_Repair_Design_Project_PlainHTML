@@ -24,9 +24,18 @@ body * {
 
 
 .projects__content {
-  margin-top: 150px;
+  
   display: flex;
+  align-items: center;
 }
+
+.projects__content > img {
+    max-width: 50%;
+    max-height: 400px;   
+    height: auto;
+    object-fit: cover;
+}
+
 
 .projects__info {
   max-width: 487px;
@@ -122,9 +131,9 @@ body * {
 }
 
 .projects {
-  margin-top: 0px;
   background-color: var(--color-dark);
-  height: 1100px;
+  padding: 4rem 0;
+  padding-top: 150px;
 }
 
 .projects__details {
@@ -209,28 +218,18 @@ body * {
 }
 
 .monitoring__player {
-  margin-top: 300px;
-  position: relative;
-  /* устанавливаем позиционирование контейнера как относительное */
-  width: 100%;
-  /* задаем ширину контейнера, чтобы изображения были выровнены по центру */
-  height: 100%;
-  /* задаем высоту контейнера, чтобы изображения были выровнены по центру */
+    display: flex;
+  justify-content: center;
+  margin: 2rem 0;
 }
 
 .monitoring__player img {
-  position: absolute;
-  /* устанавливаем позиционирование каждого изображения как абсолютное */
-  top: 50%;
-  /* задаем отступ сверху */
-  left: 50%;
-  /* задаем отступ слева */
-  transform: translate(-50%, -50%);
-  /* используем transform для выравнивания по центру */
+    max-width: 100%;
+    height: auto;
 }
 
 .monitoring {
-  margin-top: -300px;
+   padding: 4rem 0;
 }
 
 .section-header {
@@ -244,11 +243,11 @@ body * {
 }
 
 .divider--gold {
-  margin-top: 590px;
   border: none;
   height: 3px;
   background-color: var(--color-gold);
   width: 10vh;
+  margin: 2rem auto;
 }
 
 .monitoring__description {
@@ -262,7 +261,6 @@ body * {
 .monitoring__form {
   margin: 0 auto;
   max-width: 80vh;
-  height: 110vh;
 }
 
 form {
@@ -728,7 +726,6 @@ input[type="text"] {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.9);
-  /* Здесь можно задать любой цвет и уровень прозрачности */
 }
 
 .contact__form {
@@ -736,11 +733,8 @@ input[type="text"] {
   flex-direction: column;
   background: var(--color-dark);
   box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
-  height: 445px;
   width: 883px;
   color: white;
-  position: absolute;
-  margin-top: -225px;
 }
 
 .contact__inner {
