@@ -1,6 +1,6 @@
 // Get the elements by class name
-let hamburger = document.querySelector(".hamburger");
-let headerNavigation = document.querySelector(".header-navigation");
+let hamburger = document.querySelector(".header__hamburger");
+let headerNavigation = document.querySelector(".header__nav");
 
 // Add a click event listener to the hamburger icon
 hamburger.addEventListener("click", function() {
